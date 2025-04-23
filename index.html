@@ -1,13 +1,21 @@
 <html>
   <head>
+    <meta charset="UTF-8">
+    <title>Stripchat Spot</title>
     <script
-    id="SCSpotScript"
-    type="text/javascript"
-    src="https://creative.rmhfrtnd.com/widgets/Spot/lib.js"
-  ></script>
-  <script type="text/javascript">
-    const spot = new StripchatSpot({"autoplay":"all","autoclose":0,"userId":"6a033b6e0be76a02084feace6f64c9f0d2574a3405ab689282e471f489014529"});
-    spot.mount(document.body)
-  </script>
+      id="SCSpotScript"
+      type="text/javascript"
+      src="https://creative.rmhfrtnd.com/widgets/Spot/lib.js"
+    ></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      const spot = new StripchatSpot({
+        autoplay: "all",
+        autoclose: 0,
+        userId: "6a033b6e0be76a02084feace6f64c9f0d2574a3405ab689282e471f489014529"
+      });
+      spot.mount(document.body);
+    </script>
   </body>
 </html>
